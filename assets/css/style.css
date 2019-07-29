@@ -1,0 +1,46 @@
+p, h1{
+  color: #ffffff;
+}
+
+body {
+  background-image: url("../images/crystals-background.jpg");
+  background-size: cover;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.intro{
+  background-color: #071983;
+}
+
+.crystal {
+  width: 100%;
+  height: 100%;
+}
+
+.jumbotron {
+  padding: 0px;
+  background-color: #071983;
+  margin: 0px;
+  height: 95%;
+}
+
+div.col-3{
+  padding: 0px 10px;
+}
+
+#tally {
+  background-color: #071983;
+  padding: 0px;
+}
+#total {
+  background-color: #071983;
+}
+
+#rules{
+  margin: 15px 0px 10px 10px;
+}
+
+#score-text{
+  background-color: #071983;
+  padding: 10px;
+}
