@@ -55,7 +55,7 @@ function setValues () {
 resetCrystals();
 setValues();
 
-$(".img").on("click", function() {
+$(".crystal").on("click", function() {
   crystalValue = parseInt($(this).attr("value"));
   totalScore += crystalValue;
   $("#totalScore").text(totalScore);
