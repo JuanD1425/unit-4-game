@@ -44,17 +44,16 @@ function setValues () {
   $(".yellow").attr("value", yellow);
   $("#random").text(rnd);
   $("#totalScore").text(0);
+  console.log(crystals);
+  console.log(rnd);
+  console.log(red);
+  console.log(green);
+  console.log(blue);
+  console.log(yellow);
 };
 
 resetCrystals();
 setValues();
-
-console.log(crystals);
-console.log(rnd);
-console.log(red);
-console.log(green);
-console.log(blue);
-console.log(yellow);
 
 $(".img").on("click", function() {
   crystalValue = parseInt($(this).attr("value"));
